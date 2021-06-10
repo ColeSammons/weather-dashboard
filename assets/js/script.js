@@ -6,7 +6,13 @@ fetch(urlWeather).then(function (response) {
     console.log(response);
     return response.json();
 }).then(function (data) {
-    console.log(data);
-
+    console.log(data.dt);
+    var currentDate = data.dt
+    displayDate(currentDate);
 })
 
+var displayDate = function(unix) {
+    var date = new Date(unix * 1000);
+    var timeStamp = (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear();
+    console.log(timeStamp);
+}
