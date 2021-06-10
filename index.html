@@ -18,15 +18,17 @@
     <div class="container">
         <div class="row">
             <div class="col-4 bg-secondary">
-                <label for="citySearch" class="form-label">
-                    <h2>Search for a City:</h2>
-                </label>
-                <input type="search" class="form-control" placeholder="City example: 'Seattle'">
-                <button class="btn btn-info" type="button">Search</button>
+                <form class="formInput">
+                    <label for="citySearch" class="form-label">
+                        <h2>Search for a City:</h2>
+                    </label>
+                    <input type="text" class="form-control" placeholder="City example: 'Seattle'" id="inputCity">
+                    <button class="btn btn-info" type="submit" id="searchButton">Search</button>
+                </form>
             </div>
             <div class="col-8 bg-warning">
-                <div class="row"></div>
-                <div class="row"></div>
+                <div class="row" id="currentCity"></div>
+                <div class="row" id="five-day-forcast"></div>
             </div>
         </div>
     </div>
