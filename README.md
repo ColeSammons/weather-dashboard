@@ -19,4 +19,4 @@ Cole Sammons
 -CSS
 -HTML
 
-![Website home page](./images/home.png)
+![Website home page](./assets/images/home.png)
