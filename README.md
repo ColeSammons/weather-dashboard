@@ -13,10 +13,10 @@ Cole Sammons
 
 ## Technologies
 
-*JQuery
-*Bootstrap
-*Javascript
-*CSS
-*HTML
+* JQuery
+* Bootstrap
+* Javascript
+* CSS
+* HTML
 
 ![Website home page](./assets/images/home.png)
