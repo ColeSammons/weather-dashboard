@@ -13,21 +13,30 @@
 
 <body>
     <header>
-        <h1>Weather Dashboard</h1>
+        <h1 class="text-center py-2 mx-0 bg-dark-blue text-light">Weather Dashboard</h1>
     </header>
-    <div class="container">
+    <div class="wrapper">
         <div class="row">
-            <div class="col-4 bg-secondary">
+            <div class="col-3">
                 <form class="formInput">
                     <label for="citySearch" class="form-label">
                         <h2>Search for a City:</h2>
                     </label>
                     <input type="text" class="form-control" placeholder="City example: 'Seattle'" id="inputCity">
-                    <button class="btn btn-info" type="submit" id="searchButton">Search</button>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-dark-blue mt-3" type="submit" id="searchButton">Search</button>
+                    </div>
                 </form>
             </div>
-            <div class="col-8 bg-warning">
-                <div class="row" id="currentCity"></div>
+            <div class="col-9">
+                <div class="row" id="current">
+                    <div class="col-12" id="currentCity"></div>
+                    <div class="col-12" id="temp"></div>
+                    <div class="col-12" id="wind"></div>
+                    <div class="col-12" id="humidity"></div>
+                    <div class="col-12" id="uvIndex"></div>
+                </div>
+                <div class="row" id="five-day"></div>
                 <div class="row" id="five-day-forcast"></div>
             </div>
         </div>

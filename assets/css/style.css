@@ -1,0 +1,36 @@
+.wrapper {
+    margin: 0 30px 30px 30px;
+}
+
+.city-name {
+  font-size: 30px;
+}
+
+.badge-high {
+  color: #fff;
+  background-color: orange;
+}
+
+.badge-extreme {
+  color: #fff;
+  background-color: violet;
+}
+
+.btn-dark-blue,
+.bg-dark-blue {
+  color: #fff;
+  background-color: rgb(64, 63, 114);
+}
+
+.text-dark-blue {
+    color: rgb(64, 63, 114);
+}
+
+.forecast-date {
+    font-size: 18px;
+}
+
+#searchButton {
+    
+    width: 100%;
+}
